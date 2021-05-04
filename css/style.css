@@ -28,29 +28,7 @@ img {
 
 }
 
-.quote1 {
-	text-align: center;
-	margin-left: 5rem;
-	margin-right: 5rem;
-	font-weight: 300;
-	font-size: 1.75em;
-}
 
-.quote2 {
-  text-align: left;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  font-weight: 300;
-  font-size: 1.75em;
-}
-
-.quote3 {
-	text-align: right;
-	margin-left: auto;
-	margin-right: 5rem;
-	font-weight: 300;
-	font-size: 1.75em;
-}
 
 #wrapper {
 
@@ -103,8 +81,42 @@ img {
 #tree-inner .title {
   position: absolute;
   width: 100%;
-  background: blue;
-  top: 3em;
+  top: 1em;
+}
+
+.quote1 {
+  margin-top: 7rem;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-weight: 300;
+  font-size: 1.75em;
+}
+
+#tree-inner .quote2 {
+  position: absolute;
+  width: 100%;
+  bottom: 1em;
+}
+
+.quote2 {
+  text-align: left;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-weight: 300;
+  font-size: 1.75em;
+}
+
+#tree-inner .quote3 {
+  position: absolute;
+  width: 100%;
+  bottom: 1em;
+}
+.quote3 {
+  text-align: right;
+  margin-right: 2rem;
+  font-weight: 300;
+  font-size: 1.75em;
 }
 
 #tree-inner .bird-overlay {
