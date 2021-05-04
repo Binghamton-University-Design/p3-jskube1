@@ -1,21 +1,182 @@
 /*stylesheet*/
 body {
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	margin: 0;
+	background-color: #a5bbe6;
+	background-image: url("../images/.png");
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-weight: 200;
 }
 
-.wrapper {
-	margin: 0 auto;
-	max-width: 1200px;
+img {
+	width: 100%;
+	height: auto;
 }
 
-#masthead {
-	background-color: gray;
+.logo {
+	z-index: 1;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+
 }
 
-#nav {
-	background-color: red;
+.quote1 {
+	text-align: center;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	font-weight: 300;
+	font-size: 1.75em;
 }
 
-#logo {
-	
+.quote3 {
+	text-align: right;
+	margin-left: auto;
+	margin-right: 5rem;
+	font-weight: 300;
+	font-size: 1.75em;
 }
+
+#wrapper {
+
+}
+
+#map {
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+
+#map img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#map-inner {
+  position: relative;
+}
+
+#map-inner .map1 {
+  position: absolute;
+  z-index: 1;
+  width: %;
+  height: %;
+  left: %;
+  top: %;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#map-inner .map1:hover {
+  border: 5px ;
+}
+
+#tree {
+	overflow: hidden;
+}
+
+#tree img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#tree-inner {
+	position: relative;
+}
+
+#tree-inner .bird-overlay {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  right: 2rem;
+  top: 2rem;
+  border: 1px solid black;
+  background: #fff;
+}
+
+.stuff {
+	margin-top: 2rem;
+	padding: 1rem;
+	border-top: 1px solid black;
+}
+
+#tree-inner .bird-overlay p: last-child {
+	margin-bottom: 0;
+}
+
+#tree-inner .bird-overlay p: last-child {
+	margin-top: 0; 
+}
+
+#tree-inner .bird {
+	position: absolute;
+	z-index: 1;
+	width: 6%;
+	height: 4%;
+	left: 36%;
+	top: 39%;
+	border: 5px dashed black;
+
+}
+
+.close-icon {
+	position: absolute;
+	top: .5rem;
+	right: .5rem;
+	display: block;
+	box-sizing: border-box;
+	width: 1rem;
+	height: 1rem;
+	border-width:1px;
+	border-style: solid;
+    border-color:transparent;
+    border-radius:100%;
+    background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%);
+    background-color:white;
+    transition: all 0.3s ease;
+
+}
+
+@media all and (max-width: 699px) { 
+
+  #masthead {
+    padding-bottom: 1rem;
+  }
+
+  #logo #logo-holder {
+    justify-content: center;
+    margin: 1rem 0;
+  }
+
+  #logo a {
+  	width: 25%;
+  }
+
+}
+
+@media all and (min-width: 700px) { 
+  
+  body{
+    font-size: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);
+  }
+
+}
+
+@media all and (min-width: 1800px) {
+
+  body{
+    font-size: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 18px);
+  }
+
+}
+
+
