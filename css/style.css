@@ -100,13 +100,20 @@ img {
 	position: relative;
 }
 
+#tree-inner .title {
+  position: absolute;
+  width: 100%;
+  background: blue;
+  top: 3em;
+}
+
 #tree-inner .bird-overlay {
   display: none;
   position: absolute;
   z-index: 1;
   width: 45%;
   right: 2rem;
-  top: 2rem;
+  top: 30%;
   border: 1px solid black;
   background: #fff;
 }
@@ -133,7 +140,6 @@ img {
 	left: 36%;
 	top: 39%;
 	border: 5px dashed black;
-
 }
 
 .close-icon {
