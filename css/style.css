@@ -163,6 +163,11 @@ img {
 
 }
 
+.one {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
 #tree-inner .leaf:hover {
   border: 2px dashed white;
   transition: border .3s ease-in-out;
@@ -234,6 +239,42 @@ img {
 }
 
 #tree-inner .bark:hover {
+  border: 2px dashed white;
+  transition: border .3s ease-in-out;
+}
+
+#tree-inner .fire-overlay {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  right: 15rem;
+  top: 65%;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, .8);
+  color: black;
+
+}
+
+#tree-inner .fire-overlay p: last-child {
+  margin-bottom: 0;
+}
+
+#tree-inner .fire-overlay p: last-child {
+  margin-top: 0; 
+}
+
+#tree-inner .fire {
+  position: absolute;
+  z-index: 1;
+  width: 8%;
+  height: 7%;
+  left: 84%;
+  top: 66%;
+
+}
+
+#tree-inner .fire:hover {
   border: 2px dashed white;
   transition: border .3s ease-in-out;
 }

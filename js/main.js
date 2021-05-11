@@ -26,6 +26,13 @@ $( ".bark" ).click(function() {
   event.stopPropagation();
 });
 
+$( ".fire" ).click(function() {
+  $( ".fire-overlay" ).fadeToggle( "slow", "linear" );
+  event.preventDefault();
+  event.stopPropagation();
+});
+
+
 $( ".root" ).click(function() {
   $( ".root-overlay" ).fadeToggle( "slow", "linear" );
   event.preventDefault();
