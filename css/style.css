@@ -163,11 +163,7 @@ img {
 
 }
 
-.one {
-  position: absolute;
-  left: 5%;
-  top: 10%;
-}
+
 #tree-inner .leaf:hover {
   border: 2px dashed white;
   transition: border .3s ease-in-out;
